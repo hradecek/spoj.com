@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>sk.hradecek.spoj</groupId>
+  <artifactId>spoj-com-solutions</artifactId>
+  <version>0.0.0</version>
+
+  <name>spoj-com-solutions</name>
+  <url>https://github.com/hradecek/spoj.com</url>
+  <description>spoj.com solutions</description>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <version.java>12</version.java>
+    <version.testng>7.0.0</version.testng>
+    <version.maven.compiler.plugin>3.8.0</version.maven.compiler.plugin>
+  </properties>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>${version.maven.compiler.plugin}</version>
+          <configuration>
+            <source>${version.java}</source>
+            <release>${version.java}</release>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>${version.testng}</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
