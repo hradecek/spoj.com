@@ -15,7 +15,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <version.java>12</version.java>
-    <version.testng>7.0.0</version.testng>
+    <version.testng>7.7.0</version.testng>
     <version.maven.compiler.plugin>3.8.0</version.maven.compiler.plugin>
   </properties>
 
